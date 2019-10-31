@@ -1,0 +1,38 @@
+{
+    "name": "efarhost/think-kefu",
+    "description": "the new thinkphp framework",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "ORM"
+    ],
+    "homepage": "http://efarhost.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "琴瑟琵琶",
+            "email": "efarhost@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "topthink/framework": "5.1.*",
+        "topthink/think-captcha": "2.0.*",
+        "topthink/think-image": "^1.0",
+        "topthink/think-helper": "1.0.*",
+        "topthink/think-worker": "2.0.*",
+        "zoujingli/ip2region": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application"
+        }
+    },
+    "extra": {
+        "think-path": "core"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
